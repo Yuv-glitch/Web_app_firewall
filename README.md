@@ -48,6 +48,7 @@ python app.py
 
 # To see the page enter "127.0.0.1:8888" in your browser
 ```
+----
 ## ⭐ Final Words
 - This project was created as more of a learning project -- PRs, ideas, improvements are welcome!
 - Contact me on [Linkedin](https://www.linkedin.com/in/yuvraj-dudhal-0288a3248/)

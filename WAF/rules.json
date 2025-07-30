@@ -1,0 +1,14 @@
+{
+  " or 1=1": 5,
+  "select * from": 5,
+  "union select": 4,
+  "drop table": 5,
+  "--": 2,
+  "'":2,
+  "' or '": 4,
+  "<script>": 5,
+  "alert(": 3,
+  "document.cookie": 4,
+  "onerror=": 3,
+  "eval(": 3
+}

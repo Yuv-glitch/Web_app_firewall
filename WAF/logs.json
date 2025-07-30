@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "Status": "Blocked",
+            "IP_address": "127.0.0.1",
+            "PORT": 50302,
+            "Location": "Body",
+            "URL": "/",
+            "Headers": "[('Host', 'localhost:8888'), ('User-Agent', 'curl/8.9.1'), ('Accept', '*/*'), ('Content-Length', '34'), ('Content-Type', 'application/x-www-form-urlencoded')]",
+            "Body": "b\"username=' or 1=1 --&password=test\"",
+            "Severity score": 9
+        },
+        {
+            "Status": "Blocked",
+            "IP_address": "127.0.0.1",
+            "PORT": 50316,
+            "Location": "URL",
+            "URL": "/?q=' or 1=1 --",
+            "Headers": "[('Host', 'localhost:8888'), ('User-Agent', 'curl/8.9.1'), ('Accept', '*/*')]",
+            "Body": "none",
+            "Severity score": 9
+        },
+        {
+            "Status": "Blocked",
+            "IP_address": "127.0.0.1",
+            "PORT": 50677,
+            "Location": "HEADER",
+            "URL": "/",
+            "Headers": "[('Host', 'localhost:8888'), ('Accept', '*/*'), ('User-Agent', \"<script>alert('XSS in User-Agent')</script>\")]",
+            "Body": "none",
+            "Severity score": 10
+        }
+    ]
+}
